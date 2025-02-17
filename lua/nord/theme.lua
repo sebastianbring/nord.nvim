@@ -44,7 +44,7 @@ theme.loadSyntax = function()
 		SpecialComment = { fg = nord.nord8_gui }, -- special things inside a comment
 		Debug = { fg = nord.nord11_gui }, -- debugging statements
 		Underlined = { fg = nord.nord14_gui, bg = nord.none, style = "underline" }, -- text that stands out, HTML links
-		Ignore = { fg = nord.nord6_gui }, -- left blank, hidden
+		Ignore = { fg = nord.nord1_gui }, -- left blank, hidden
 		Todo = { fg = nord.nord13_gui, bg = nord.none, style = bold_italic }, -- anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 		Conceal = { fg = nord.none, bg = nord.nord0_gui },
 		htmlLink = { fg = nord.nord14_gui, style = "underline" },
@@ -77,7 +77,7 @@ theme.loadEditor = function()
 		NormalFloat = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
 		FloatBorder = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
 		ColorColumn = { fg = nord.none, bg = nord.nord1_gui }, -- used for the columns set with 'colorcolumn'
-		Conceal = { fg = nord.nord1_gui }, -- placeholder characters substituted for concealed text (see 'conceallevel')
+		Conceal = { fg = nord.nord7_gui }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" }, -- the character under the cursor
 		CursorIM = { fg = nord.nord5_gui, bg = nord.none, style = "reverse" }, -- like Cursor, but used when in IME mode
 		Directory = { fg = nord.nord7_gui, bg = nord.none }, -- directory names (and other special names in listings)
