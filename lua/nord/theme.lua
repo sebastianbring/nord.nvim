@@ -77,7 +77,7 @@ theme.loadEditor = function()
 		NormalFloat = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
 		FloatBorder = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
 		ColorColumn = { fg = nord.none, bg = nord.nord1_gui }, -- used for the columns set with 'colorcolumn'
-		Conceal = { fg = nord.nord7_gui }, -- placeholder characters substituted for concealed text (see 'conceallevel')
+		Conceal = { fg = nord.nord1_gui }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" }, -- the character under the cursor
 		CursorIM = { fg = nord.nord5_gui, bg = nord.none, style = "reverse" }, -- like Cursor, but used when in IME mode
 		Directory = { fg = nord.nord7_gui, bg = nord.none }, -- directory names (and other special names in listings)
@@ -91,7 +91,7 @@ theme.loadEditor = function()
 		MatchParen = { fg = nord.nord15_gui, bg = nord.none, style = bold },
 		ModeMsg = { fg = nord.nord4_gui },
 		MoreMsg = { fg = nord.nord4_gui },
-		NonText = { fg = nord.nord1_gui },
+		NonText = { fg = nord.nord7_gui },
 		Pmenu = { fg = nord.nord4_gui, bg = nord.nord2_gui },
 		PmenuSel = { fg = nord.nord4_gui, bg = nord.nord10_gui },
 		PmenuSbar = { fg = nord.nord4_gui, bg = nord.nord2_gui },
