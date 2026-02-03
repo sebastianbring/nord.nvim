@@ -416,7 +416,7 @@ theme.loadLSP = function()
 		LspReferenceText = { fg = nord.nord4_gui, bg = nord.nord1_gui }, -- used for highlighting "text" references
 		LspReferenceRead = { fg = nord.nord4_gui, bg = nord.nord1_gui }, -- used for highlighting "read" references
 		LspReferenceWrite = { fg = nord.nord4_gui, bg = nord.nord1_gui }, -- used for highlighting "write" references
-		LspInlayHint = { fg = nord.nord9_gui, bg = nord.none },
+		LspInlayHint = { fg = nord.nord10_gui, bg = nord.none },
 
 		DiagnosticError = { link = "LspDiagnosticsDefaultError" },
 		DiagnosticWarn = { link = "LspDiagnosticsDefaultWarning" },
